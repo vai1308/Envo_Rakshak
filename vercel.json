@@ -1,16 +1,9 @@
 {
     "builds": [{
-        "src": "Family/wsgi.py",
+        "src": "Envo_Rakshak/wsgi.py",
         "use": "@vercel/python",
         "config": {"maxLambdaSize":"15mb","runtime":"python3.9"}
-    },
-    {
-        "src":"build_files.sh",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "staticfiles_build"
-        }
-      }
+    }
     ],
     "routes": [
         {
@@ -19,7 +12,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "Family/wsgi.py"
+            "dest": "Envo_Rakshak/wsgi.py"
         }
     ]
 }
