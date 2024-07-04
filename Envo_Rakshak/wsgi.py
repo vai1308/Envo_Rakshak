@@ -22,4 +22,4 @@ application = get_wsgi_application()
 app = application
 
 application = MyWSGIApp()
-application = WhiteNoise(application, root="/static/")
+application = WhiteNoise(application, root="static/")
