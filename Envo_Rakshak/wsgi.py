@@ -11,15 +11,8 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-from whitenoise import WhiteNoise # type: ignore
-
-from Envo_Rakshak import MyWSGIApp
-
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Envo_Rakshak.settings')
 
 application = get_wsgi_application()
 
 app = application
-
-application = MyWSGIApp()
-application = WhiteNoise(application, root="static/")
