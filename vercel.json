@@ -23,6 +23,5 @@
         "src": "/(.*)",
         "dest": "Envo_Rakshak/wsgi.py"
       }
-    ],
-    "outputDirectory": "staticfiles"
+    ]
 }
