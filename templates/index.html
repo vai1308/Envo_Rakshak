@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block body %}
+{% load static %}
+<nav>
+    <div id='app'>Green Trip</div>
+    <div id='menu'>
+        <button id='log'>LogIn/SignUp</button>
+        <a href="#"><img id="set" src="{% static "download.jpg" %}" alt="Settings"></a>
+    </div>
+</nav>
+<div class="home">
+    <form action="#" id="dest">
+        <input type="text" class="input" placeholder="Source"><br><br>
+        <input type="text" class="input" placeholder="Destination"><br>
+        <br><br>
+        <button id="submit">Make a Green Trip</button>
+    </form>
+    <img src="{% static "animation.gif" %}" alt="Animation" id='car-animation'>
+</div>
+<div class="div-sections">
+    <div class="space">
+    <a href="#" class="section">
+        <h4>Previous Rides</h4>
+    </a>
+    <a href="#" class="section">
+        <h4>Car Number</h4>
+    </a>
+    <a href="#" class="section">
+        <h4>Share Ride</h4>
+    </a>
+    </div>
+    <div class="space">
+    <a href="#" class="section">
+        <h4>My Contributions</h4>
+    </a>
+    <a href="#" class="section">
+        <h4>Distance Travelled</h4>
+    </a>
+    <a href="#" class="section">
+        <h4>Track Your Ride</h4>
+    </a>
+    </div>
+</div>
+{% endblock body %}
