@@ -123,27 +123,3 @@ nav {
     margin-right: auto;
     padding: 5px;
 }
-
-@media only screen and (max-width:800px) {
-    nav{
-        width: 100vw;
-        height: auto;
-    }
-    #app{
-        width: auto;
-        height: auto;
-        font-size: medium;
-    }
-    #menu{
-        width: auto;
-        height: auto;
-    }
-    #log{
-        width: auto;
-        height: auto;
-    }
-    #set{
-        width: auto;
-        height: 3vh;
-    }
-}
