@@ -62,12 +62,9 @@ nav {
 .input{
     height: 8vh;
     width: 35vw;
+    padding-left: 15px;
     border-radius: 25px;
     border: 2px solid rgb(30, 30, 30);
-}
-
-.input::placeholder{
-    padding-left: 10px;
     font-size: 20px;
 }
 

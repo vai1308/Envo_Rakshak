@@ -8,8 +8,15 @@
 </nav>
 <div class="home">
     <form action="#" id="dest">
-        <input type="text" class="input" placeholder="Source"><br><br>
-        <input type="text" class="input" placeholder="Destination"><br>
+        <input type="text" class="input" list="options" placeholder="Source"><br><br>
+        <input type="text" class="input" list="options" placeholder="Destination"><br>
+        <datalist id="options">
+            <option value="Noida"></option>
+            <option value="Gurugram"></option>
+            <option value="Faridabad"></option>
+            <option value="Delhi"></option>
+            <option value="Ghaziabad"></option>
+        </datalist>
         <br><br>
         <button id="submit">Make a Green Trip</button>
     </form>
