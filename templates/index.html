@@ -2,11 +2,9 @@
 {% block body %}
 {% load static %}
 <nav>
+    <a href="#"><img id="set" src="{% static "settings.png" %}" alt="Settings"></a>
     <div id='app'>Green Trip</div>
-    <div id='menu'>
-        <button id='log'>LogIn/SignUp</button>
-        <a href="#"><img id="set" src="{% static "download.jpg" %}" alt="Settings"></a>
-    </div>
+    <button id='log'>LogIn</button>
 </nav>
 <div class="home">
     <form action="#" id="dest">

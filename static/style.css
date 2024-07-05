@@ -11,10 +11,6 @@ nav {
     align-items: center;
 }
 
-#menu {
-    display: flex;
-}
-
 #app {
     text-align: center;
     margin-left: 4%;
@@ -39,7 +35,7 @@ nav {
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .home{
