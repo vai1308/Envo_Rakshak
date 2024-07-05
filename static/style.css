@@ -14,8 +14,9 @@ nav {
 #app {
     text-align: center;
     margin-left: 4%;
-    color: aliceblue;
+    color: whitesmoke;
     font-size: 5vh;
+    font-weight: bolder;
 }
 
 #log {
@@ -138,5 +139,8 @@ nav {
     #set{
         width: auto;
         height: 3vh;
+    }
+    .space{
+        display: block;
     }
 }
