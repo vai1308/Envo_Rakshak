@@ -140,6 +140,13 @@ nav {
         width: auto;
         height: 3vh;
     }
+    .home{
+        display: block;
+    }
+    #car-animation{
+        height: auto;
+        width: 100%;
+    }
     .space{
         display: block;
     }
