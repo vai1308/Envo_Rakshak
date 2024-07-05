@@ -11,15 +11,12 @@ nav {
     align-items: center;
 }
 
-#menu {
-    display: flex;
-}
-
 #app {
     text-align: center;
     margin-left: 4%;
-    color: aliceblue;
+    color: whitesmoke;
     font-size: 5vh;
+    font-weight: bolder;
 }
 
 #log {
@@ -39,7 +36,7 @@ nav {
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .home{
@@ -66,12 +63,9 @@ nav {
 .input{
     height: 8vh;
     width: 35vw;
+    padding-left: 15px;
     border-radius: 25px;
     border: 2px solid rgb(30, 30, 30);
-}
-
-.input::placeholder{
-    padding-left: 10px;
     font-size: 20px;
 }
 
@@ -145,5 +139,21 @@ nav {
     #set{
         width: auto;
         height: 3vh;
+    }
+    .home{
+        display: block;
+    }
+    #car-animation{
+        height: auto;
+        width: 100%;
+    }
+    #dest{
+        width: 100vw;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .space{
+        display: block;
     }
 }
